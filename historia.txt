@@ -39,3 +39,7 @@ Resumen de GIT and git hub
 
 8. para ver las historias de verisones del archivo =>
     git log <<Nombre del archivo>>
+
+9. para ver los cambios que han existido entre verisones =>
+    git show <<Nombre del archivo>>
+        'permite comparar los cambios del estado anterior y el actual
