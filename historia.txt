@@ -1,0 +1,14 @@
+Esto es un resumen de GIT and git hub
+
+1: en Terminal bash: para inicar a crear un repositorio ==>
+    git init
+
+2.  Para conocer los archivos que no se han añadido =>
+    git status
+
+3. Para trackear / agregar archivos a repositorio debe utlizar =>
+    git add <<Nombre del archivo>>
+
+4. Para sacar archivos de repositorio =>
+    git rm <<Nombre del archivo>>
+    
