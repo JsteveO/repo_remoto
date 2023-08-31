@@ -54,3 +54,15 @@ Resumen de GIT and git hub
         'Para tomar el código de la versión que queremos ver
 
     git diff <<Código de git log>> <<código de git a comparar>>
+        'Es preferible poner primero el código ,ás antiguo y luego el mas nuevo
+
+
+Resumen:
+
+    git init = > iniciar un repositorio
+    git status = > Ver archivos que no se han añadido a repositorio y estado de los que están añadidos
+    git add = > Para agregar archivo o cmabio al repositorio
+    git commit -m = > para guadarlo en el control de versiones
+    git log => para ver todas las verisones del archivo
+    git show = > para ver cmabios del archivo reciente con el anterior
+    git diff = > para comparar cambios entre versiones
