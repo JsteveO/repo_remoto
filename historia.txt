@@ -1,4 +1,5 @@
-Esto es un resumen de GIT and git hub
+Resumen de GIT and git hub
+    (Stiven Olano)
 
 1: en Terminal bash: para inicar a crear un repositorio ==>
     git init
@@ -10,5 +11,23 @@ Esto es un resumen de GIT and git hub
     git add <<Nombre del archivo>>
 
 4. Para sacar archivos de repositorio =>
-    git rm <<Nombre del archivo>>
-    
+    git rm --cached <<Nombre del archivo>>
+
+        'esto es para sacarlo de memoria ram y de ese estado de repositorio
+        ' para agregarlo nuevamente se utiliza git add <<Nombre del archivo>>
+
+5. Tener cuidado, no utilizar =>
+    git rm -f <<Nombre del archivo>>
+
+        'puede eliminarlo radicalmente
+
+6. El archivo esta un limbo / en staged , para enviar los cambios al repositorio =>
+    git commit -m << "mensaje para saber las verisones y cambios de los archivos" >>
+
+6.1 primero debes configurar tu usuario para realizar el control de verisones =>
+    git confi => lista de como funcionan las configuraciones de git
+    git config --list => puedes ver la configuración por defecto del tu git (user)
+    git congif --list--show--origin => configuracion para casos avanzados
+
+
+7. primera prueba de cambios se cambiará el titulo y se agregará el nombre
