@@ -31,3 +31,11 @@ Resumen de GIT and git hub
 
 
 7. primera prueba de cambios se cambiará el titulo y se agregará el nombre
+    git add <<Nombre del archivo>>
+    'siempre se debe hacer git add <<Nombre del archivo>>
+    'para acutalizar versión
+    git commit << "mensaje para saber las verisones y cambios de los archivos" >>
+        'para guardar la modificación
+
+8. para ver las historias de verisones del archivo =>
+    git log <<Nombre del archivo>>
