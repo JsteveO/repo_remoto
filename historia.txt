@@ -15,7 +15,6 @@ Resumen de GIT and git hub
 
         'esto es para sacarlo de memoria ram y de ese estado de repositorio
         ' para agregarlo nuevamente se utiliza git add <<Nombre del archivo>>
-
 5. Tener cuidado, no utilizar =>
     git rm -f <<Nombre del archivo>>
 
@@ -43,3 +42,9 @@ Resumen de GIT and git hub
 9. para ver los cambios que han existido entre verisones =>
     git show <<Nombre del archivo>>
         'permite comparar los cambios del estado anterior y el actual
+
+9.1 Vim para escribir texto =>
+    Esc + i
+
+9.2 forzar salida y guardado =>
+    Esc + shift + Z Z
