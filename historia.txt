@@ -48,3 +48,9 @@ Resumen de GIT and git hub
 
 9.2 forzar salida y guardado =>
     Esc + shift + Z Z
+
+10. ver cambios de cada verisón =>
+    git log <<Nombre del archivo>> 
+        'Para tomar el código de la versión que queremos ver
+
+    git diff <<Código de git log>> <<código de git a comparar>>
