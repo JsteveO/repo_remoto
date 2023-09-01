@@ -54,7 +54,7 @@ Resumen de GIT and git hub
         'Para tomar el código de la versión que queremos ver
 
     git diff <<Código de git log>> <<código de git a comparar>>
-        'Es preferible poner primero el código ,ás antiguo y luego el mas nuevo
+        'Es preferible poner primero el código más antiguo y luego el mas nuevo
 
 
 Resumen:
@@ -66,3 +66,19 @@ Resumen:
     git log => para ver todas las verisones del archivo
     git show = > para ver cmabios del archivo reciente con el anterior
     git diff = > para comparar cambios entre versiones
+
+Directorio              Staging         repositorio   (master)
+________    =>     ____tracked___  =>  ___tracked____
+git init            git add           git commit
+
+11. Ramas =>
+
+    master => por defecto cada commit es una versión nueva del archivo en master
+
+    experimental (developmet) = > copias la versión actual o la que quieras de la rama master y allí sigues con tus commits
+
+    bugfixing (hotfix) = > crear rama especial para realizar cambios y probarlos en la rama master conectando ambas ramas
+        'esto se conoce como merge
+
+
+    experimental y bugfixing se pueden conectar con la rama  master o head y crrear la versión final 
