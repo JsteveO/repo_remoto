@@ -82,3 +82,22 @@ git init            git add           git commit
 
 
     experimental y bugfixing se pueden conectar con la rama  master o head y crrear la versión final 
+
+12.  Volver en el tiempo =>
+
+    git reset <<código de git log>> hard
+        'elimina todos los archivos anteriormente guardados hasta el actual el cual quedaría como head en (master)
+
+    git reset <<código de git log>> sotf
+        'Borra el historial y los registros de Git de commits anteriores, pero guarda los cambios en Staging
+         para aplicar las últimas actualizaciones a un nuevo commit.
+
+    git checkout <<código de git log>> <<Nombre del archivo>>
+        'la forma más segura de volver  al estado anterior de los archivos 
+        ' para guardar el archivo y borrar los que se encuentran con un commit posterior solo se ejecuta el checkout
+        y se realiza un commit
+        'Para reestablecer el head (último archivo commiteado) se realiza git checkout master <<Nombre del archivo>>
+
+
+         
+
