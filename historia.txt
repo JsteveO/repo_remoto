@@ -99,5 +99,5 @@ git init            git add           git commit
         'Para reestablecer el head (último archivo commiteado) se realiza git checkout master <<Nombre del archivo>>
 
 
-         
+         'esto es una prueba de checkout
 
