@@ -101,3 +101,4 @@ git init            git add           git commit
 
          'esto es una prueba de checkout
 
+          'versión de prueba exitosa  
