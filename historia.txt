@@ -102,3 +102,32 @@ git init            git add           git commit
          'esto es una prueba de checkout
 
           'versión de prueba exitosa  
+
+Resumen.
+    
+    git rm <<Nombre del archivo>> --cached =>
+        'elimina de Staging
+        'elimina del seguimiento (repositorio)
+        'permanece el archivo en disco duro
+
+    git rm <<Nombre del archivo>> --forced =>
+    ' elimina del Staging
+    'elimina del repositorio
+    'elimina del disco duro
+        'Solo se puede recuperar con comandos avanzados
+
+    git reset <<Nombre del archivo>> --soft =>
+        'permanece en staging (versión cuando se realiza un git add pero faltando un git commit)
+        'Elimina el historial/historiales posteriores de git
+        
+    git reset <<Nombre del archivo>> --hard =>
+        'mismas condiciones que un rm --forced
+
+    git reset <<Nombre del archivo>> --HEAD =>
+        'solo elimina Staging
+
+    git reset <<Nombre del archivo>> --mixed =>
+        'igual que hard pero no lo elimina de disco duro
+
+    Al trabajar en entornos colaborativos de GITHUB realizar estos cambios puede interferir en la sincronización de los commits 
+    
