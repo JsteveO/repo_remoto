@@ -152,4 +152,4 @@ GIT HUB ======>>>>>
         'Realiza al mismo tiempo git fetch git merge
 
 
-    Esto es un error
+    
