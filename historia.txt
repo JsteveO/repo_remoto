@@ -155,4 +155,15 @@ GIT HUB ======>>>>>
         'no tendría que hacer un git add previo
 
 
+    RAMAS =====>>>>
+
+        Git branch <<Nombre de la rama>>
+            ' Crea una rama nueva además de master y se puede trabajar desde la rama sin hacer cambios en master y viceversa
+
+        Git checkout <<Nombre de la rama o master>> 
+            'Sin el nombre del archivo
+            'permite moverse entre ramas y master para editar de manera indepentiente
+
+
+
         <<Esta es la cabecera>>
