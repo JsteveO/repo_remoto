@@ -64,7 +64,7 @@ Resumen:
     git add = > Para agregar archivo o cmabio al repositorio
     git commit -m = > para guadarlo en el control de versiones
     git log => para ver todas las verisones del archivo
-    git show = > para ver cmabios del archivo reciente con el anterior
+    git show = > para ver cambios del archivo reciente con el anterior
     git diff = > para comparar cambios entre versiones
 
 Directorio              Staging         repositorio   (master)
@@ -129,5 +129,27 @@ Resumen.
     git reset <<Nombre del archivo>> --mixed =>
         'igual que hard pero no lo elimina de disco duro
 
-    Al trabajar en entornos colaborativos de GITHUB realizar estos cambios puede interferir en la sincronización de los commits 
+    Al trabajar en entornos colaborativos de GITHUB realizar estos cambios puede interferir en la _
+    sincronización de los commits 
+
+GIT HUB ======>>>>>
+
+    Git clone url =>
+        'Para enviar una copia de mi entorno de desarrollo personal _
+        al entorno colaborativos
+
+    Git push =>
+        Cuando quiero enviar el master de mi entorno de desarrollo personal al entorno colaborativo
+
+    Git fetch = >
+        'Traer las actualziaciones o cambios que alguien más del entorno colaborativo realizo a _
+        mi entorno personal        
+
+    Git merge =>
+        'para copiar en mi entorno lo que traje del git fetch y lo fusione con mi versión
+
+    Git pull =>
+        'Realiza al mismo tiempo git fetch git merge
+
+
     
