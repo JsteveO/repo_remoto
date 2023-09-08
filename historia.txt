@@ -151,5 +151,6 @@ GIT HUB ======>>>>>
     Git pull =>
         'Realiza al mismo tiempo git fetch git merge
 
-
+    Git commit -am <<mensaje / descripción del cambio>>
+        'no tendría que hacer un git add previo
     
