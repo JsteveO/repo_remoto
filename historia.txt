@@ -196,3 +196,4 @@ GIT HUB ======>>>>>
             'arreglo el conflicto directamente desde VS code
             '***Se debe hacer add y commit nuevamente sobre el cambio que quiero conservar y no se necesita _ 
             realizar nuevamente merge 
+    Resolución de Conflicto con master
