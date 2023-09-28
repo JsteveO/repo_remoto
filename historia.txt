@@ -188,3 +188,5 @@ GIT HUB ======>>>>>
     git checkout = > Para moverse entre ramas o entre versiones y volver a versiones anteriores 
     git branch = > Para crear y ver ramas
     git merge = > Para fusionar ramas sea entorno personal o colaborativo
+
+    Resolución de Conflicto con master
