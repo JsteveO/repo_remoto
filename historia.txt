@@ -164,17 +164,27 @@ GIT HUB ======>>>>>
             'Sin el nombre del archivo
             'permite moverse entre ramas y master para editar de manera indepentiente
 
+        Git merge <<Nombre de la rama>> -m "Descripción"
+            'Crea un commit en el que combina los últimos commits de ambas ramas
+            'Si mi HEAD está en Master trae la información de la otra rama y la añade al último commit de master
 
-
-        <<Esta es la cabecera>>
-        <<Para salir sin ctrl + c o ctrl + Z en líneas de lectura en la termianl solo se apreta la tecla "Q" de Quit>>
-        
-ddd
 
                 <<Esta es la cabecera>>
                 <<Para salir sin ctrl + c o ctrl + Z en líneas de lectura en la termianl solo se apreta la tecla "Q" de Quit>>
                 <<Esta es una nueva cabecera con BRANCH>>
 
 
-                Cabecera
-                aaa
+        Resumen 2:
+
+    git init = > iniciar un repositorio
+    git status = > Ver archivos que no se han añadido a repositorio y estado de los que están añadidos
+    git add = > Para agregar archivo o cmabio al repositorio
+    git commit -m = > para guadarlo en el control de versiones
+    git log => para ver todas las verisones del archivo
+    git show = > para ver cambios del archivo reciente con el anterior
+    git diff = > para comparar cambios entre versiones
+    git rm = > Para eliminar archivos (cached /forced)
+    git reset = > Para borrar archivos o historiales (soft/hard/mixed)
+    git checkout = > Para moverse entre ramas o entre versiones y volver a versiones anteriores 
+    git branch = > Para crear y ver ramas
+    git merge = > Para fusionar ramas sea entorno personal o colaborativo
