@@ -71,7 +71,7 @@ Directorio              Staging         repositorio   (master)
 ________    =>     ____tracked___  =>  ___tracked____
 git init            git add           git commit
 
-11. Ramas =>
+11. RAMAS 1 =>
 
     master => por defecto cada commit es una versión nueva del archivo en master
 
@@ -83,7 +83,7 @@ git init            git add           git commit
 
     experimental y bugfixing se pueden conectar con la rama  master o head y crrear la versión final 
 
-12.  Volver en el tiempo =>
+12.  VOLVER EN EL TIEMPO =>
 
     git reset <<código de git log>> hard
         'elimina todos los archivos anteriormente guardados hasta el actual el cual quedaría como head en (master)
@@ -103,7 +103,7 @@ git init            git add           git commit
 
           'versión de prueba exitosa  
 
-Resumen.
+Resumen. ====>
     
     git rm <<Nombre del archivo>> --cached =>
         'elimina de Staging
@@ -132,7 +132,7 @@ Resumen.
     Al trabajar en entornos colaborativos de GITHUB realizar estos cambios puede interferir en la _
     sincronización de los commits 
 
-GIT HUB ======>>>>>
+13. GIT HUB ======>>>>>
 
     Git clone url =>
         'Para enviar una copia de mi entorno de desarrollo personal _
@@ -155,7 +155,7 @@ GIT HUB ======>>>>>
         'no tendría que hacer un git add previo
 
 
-    RAMAS =====>>>>
+14. RAMAS 2 =====>>>>
 
         Git branch <<Nombre de la rama>>
             ' Crea una rama nueva además de master y se puede trabajar desde la rama sin hacer cambios en master y viceversa
@@ -174,7 +174,7 @@ GIT HUB ======>>>>>
                 <<Esta es una nueva cabecera con BRANCH>>
 
 
-        Resumen 2:
+Resumen 2: =>
 
     git init = > iniciar un repositorio
     git status = > Ver archivos que no se han añadido a repositorio y estado de los que están añadidos
@@ -190,10 +190,12 @@ GIT HUB ======>>>>>
     git merge = > Para fusionar ramas sea entorno personal o colaborativo
 
 
-    Resolviendo conflictos merge
+15. RESOLVIENDO CONFLICTOS CON MERGE ===>
         git merge ===> conflict
             
             'arreglo el conflicto directamente desde VS code
             '***Se debe hacer add y commit nuevamente sobre el cambio que quiero conservar y no se necesita _ 
             realizar nuevamente merge 
     Resolución de Conflicto con master
+
+16. LLAVES PÚBLICAS Y PRIVADAS ====>
