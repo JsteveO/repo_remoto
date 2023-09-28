@@ -169,3 +169,4 @@ GIT HUB ======>>>>>
         <<Esta es la cabecera>>
         <<Para salir sin ctrl + c o ctrl + Z en líneas de lectura en la termianl solo se apreta la tecla "Q" de Quit>>
         
+ddd
