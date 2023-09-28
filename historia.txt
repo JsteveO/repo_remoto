@@ -164,8 +164,18 @@ GIT HUB ======>>>>>
             'Sin el nombre del archivo
             'permite moverse entre ramas y master para editar de manera indepentiente
 
+        Git Merge 
+            'Para hacer un merge se debe poner el HEAD en donde quiero que se conserve como original _ 
+             y traer la info de la otra rama
+             'Merge crea un commit nuevo en la rama que este como HEAD combinando el útlimo commit de ambas ramas _ 
+             eliminando la otra rama.
+               
+
+                'Si quiero tener todo lo de master mi checkout debe estar en Master y hacer el merge con cabecera
+                'En este caso mi Head estará en Cabecera
 
 
-        <<Esta es la cabecera>>
-        <<Para salir sin ctrl + c o ctrl + Z en líneas de lectura en la termianl solo se apreta la tecla "Q" de Quit>>
-    <<Esta es una nueva cabecera con BRANCH>>
+
+                <<Esta es la cabecera>>
+                <<Para salir sin ctrl + c o ctrl + Z en líneas de lectura en la termianl solo se apreta la tecla "Q" de Quit>>
+                <<Esta es una nueva cabecera con BRANCH>>
