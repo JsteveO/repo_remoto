@@ -155,7 +155,7 @@ Resumen. ====>
         'no tendría que hacer un git add previo
 
 
-14. RAMAS 2 =====>>>>
+13. RAMAS =====>>>>
 
         Git branch <<Nombre de la rama>>
             ' Crea una rama nueva además de master y se puede trabajar desde la rama sin hacer cambios en master y viceversa
@@ -190,7 +190,7 @@ Resumen 2: =>
     git merge = > Para fusionar ramas sea entorno personal o colaborativo
 
 
-15. RESOLVIENDO CONFLICTOS CON MERGE ===>
+14. Resolviendo conflictos merge
         git merge ===> conflict
             
             'arreglo el conflicto directamente desde VS code
@@ -198,4 +198,57 @@ Resumen 2: =>
             realizar nuevamente merge 
     Resolución de Conflicto con master
 
-16. LLAVES PÚBLICAS Y PRIVADAS ====>
+15. Llaves públicas y privadas
+
+    ***LAS LLAVES NO SON POR PROYECTO SINO POR PERSONA ***
+
+    Cambio de correo en git
+        git config --global user.email "escribir email"
+
+       1. ssh-keygen ===> comando para la Llaves
+            'Siempre estar en virgulilla o home
+
+        ssh-keygen -t rsa -b 4096 -C "correo"
+            -t ===> especificar el algoritmo que se utilizará
+            rsa ===> algoritmo para la Llave
+            -b ===>  especificar complejidad de la Llave
+            4096 ===> complejidad matematica
+            -C ===> correo electronico
+            "correo electronico  
+
+       2. Solicitud de passphrase ===> contraseña permitiendo espacios
+            Opcional
+            Miphassphrase ===> stivenolano
+
+            huella: SHA256:mQ0DH1ujH63YCk3dQe5/lLLwizxlGOLSzgkm4tmrJKs
+
+            The key's randomart image is:
+                                +---[RSA 4096]----+
+                                |      . . o.o    |
+                                |       o * = .   |
+                                |        B o +    |
+                                |       o @ =    .|
+                                |      . S *.+. ..|
+                                |   . . = + .o+o. |
+                                | ...+ o * . oo. .|
+                                |  +o .   +... .. |
+                                |E. ....    o..   |
+                                +----[SHA256]-----+
+        
+        
+        3. revisar servidor de llaves encendido:
+
+            eval $(ssh -agent -s)
+                Evalua que un comando se dispare
+
+            arroja ===> agent pid número asignado
+                agent indica que el servidor del ssh está corriendo
+                pid = indetificador del proceso y asigna número
+
+        4. Agregar la llave privada que acabamos de crear y que nunca debemos mostrar
+
+            ssh-add "agregar la ruta donde está la llave"
+
+            ssh-add ~/stivenolano
+                solicita passphrase y lsito, identidad añadida
+                
