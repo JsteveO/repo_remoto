@@ -250,5 +250,28 @@ Resumen 2: =>
             ssh-add "agregar la ruta donde está la llave"
 
             ssh-add ~/stivenolano
-                solicita passphrase y lsito, identidad añadida
+                solicita passphrase y listo, identidad añadida
                 
+16. GITHUB 
+
+    Creando un repositorio en Github
+
+        Nuevo repositorio, para traerlo desde la consola
+
+            'se añade titulo y descripción
+            'se activa README
+            'Las otas opciones no son necesarias
+            'se puede utilzar público o privado
+
+            row ==> se puede ver en url lo que se ha hecho y _ 
+            blame ==> permite ver quien ha modificado
+            history ==> equivale a un git log
+
+
+        Añadir clave ssh
+            'vamos a configuración
+            'seleccionamos SSH and GPG keys
+            'creamos una nueva ssh key
+
+            se añade titulo y se pega la CLAVE PÚBLICA
+            
