@@ -25,11 +25,16 @@ def asesor(data):
         fecha_corte = datetime.strptime(dato['FECHA_DESEMBOLSO'], '%d/%m/%Y')
         mes_corte = fecha_corte.strftime('%m/%Y') #toma los meses de las fechas para crear condicional
 
+        barrios_ = dato.get('BARRIO_NEGOCIO')
+        municipios_ = dato.get('MUNICIPIO_NEGOCIO')
+        #saldo_ = dato.get(' SALDO_CORTE ')
+
         if mes_corte == ultimo_mes:
-            barrios_ultimo_mes.add(dato['BARRIO_NEGOCIO']) #añade los barrios de los meses que son iguales al últ mes
+            #barrios_ultimo_mes.add(dato['BARRIO_NEGOCIO']) #añade los barrios de los meses que son iguales al últ mes
+            barrios_ultimo_mes.add((barrios_,municipios_))
         else:
-            barrios_otros_meses.add(dato['BARRIO_NEGOCIO']) #añade los que son diferentes al último mes
-    
+            #barrios_otros_meses.add(dato['BARRIO_NEGOCIO']) #añade los que son diferentes al último mes
+            barrios_otros_meses.add((barrios_,municipios_))
     #convierte en listas
     l_ultimo_mes = list(barrios_ultimo_mes)
     l_otros_meses = list(barrios_otros_meses)
