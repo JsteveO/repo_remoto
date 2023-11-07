@@ -174,6 +174,8 @@ Resumen. ====>
                 <<Esta es una nueva cabecera con BRANCH>>
 
 
+
+
 Resumen 2: =>
 
     git init = > iniciar un repositorio
@@ -285,3 +287,29 @@ Resumen 2: =>
         
     Para poder realizar GIT PUSH debemos crear una nueva rama con GIT BRANCH de master y nombrarla "main"
     Puesto que github sustituyó el nombre master  por main
+
+        'git branch -m main
+
+    ==> Para agregar el repositorio
+
+        Git remote add origin "enlace https de repositorio de github  (se encuentra en la parte de <> Code)"
+        Git config remote.origin.url "Insertar url/enlace para cambiar la ruta de repositorio
+
+
+18. PUSH Y PULL EN GIT 
+    
+    ==> Git push origin main
+        'Para enviar repositorio de git a git hub /debe ser main pq se reemplaza la rama master
+
+        'Antes de hacer el push primero se debe combinar con un merge lo que hay en el repositorio de github
+        en este caso el README
+
+    ==> Git pull origin main
+        ' primero se realiza el pull para que no hayan inconvenientes de envio
+
+
+    TOKEN DE ACCESO:
+        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
+
+        'Token de autentificación que reemplaza verificación de contraseña
+
