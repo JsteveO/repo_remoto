@@ -309,7 +309,9 @@ Resumen 2: =>
 
 
     TOKEN DE ACCESO:
-        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
+        s-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-3
 
         'Token de autentificación que reemplaza verificación de contraseña
+
+        'recordar hacer commits
 
