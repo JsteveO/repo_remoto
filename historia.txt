@@ -260,7 +260,7 @@ Resumen 2: =>
 
             'se añade titulo y descripción
             'se activa README
-            'Las otas opciones no son necesarias
+            'Las otras opciones no son necesarias
             'se puede utilzar público o privado
 
             row ==> se puede ver en url lo que se ha hecho y _ 
@@ -275,3 +275,13 @@ Resumen 2: =>
 
             se añade titulo y se pega la CLAVE PÚBLICA
             
+17. AÑADIR ORIGEN REMOTO
+
+    Git remote add origin "dirección de git hub"
+        'añade origen remoto de GITHUB
+
+    git remote / git remote -v
+        'muestra que existe origin / muestra la dirección de GITHUB añadida
+        
+    Para poder realizar GIT PUSH debemos crear una nueva rama con GIT BRANCH de master y nombrarla "main"
+    Puesto que github sustituyó el nombre master  por main
