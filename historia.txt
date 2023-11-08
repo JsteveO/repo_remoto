@@ -310,8 +310,47 @@ Resumen 2: =>
 
     TOKEN DE ACCESO:
         s-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-3
-
+            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
         'Token de autentificación que reemplaza verificación de contraseña
 
         'recordar hacer commits
+
+19. ETIQUETAS Y VERSIONES
+
+
+    git log --all
+        'Muestra todos los cambios ya que cuando hay ramas no muestra todos
+    
+    git log --all --graph
+        'Muestra todo incluido ramas (ramificado)
+
+    git log --all --graph --decorate --oneline
+        'Muestra todo resumido entendible y bonito 
+
+    tags -etiquetas
+
+        ' ya que los códigos / identificadores de versiones son largos o códigos complejos
+        se pueden crear tags para ir directo a la versión que queremos ver
+
+            'git tag -a "como queremos nombrar el tag" -m "Descripción de la versión" <<código a taggear>>
+                '-m es como cuando hacemos descripcion en los commit
+
+
+            'git tag  
+                'muestra todos los tags que se han creado
+
+            'git show-ref --tags 
+                'muestra el tag con el código correspondiente
+
+
+        ' los tags son utiles en GITHUB para ver las versiones entre colaboradores
+        Cuando se crea se debe enviar el TAG a GITHUB
+        Pero siempre se debe realizar git pull para no tener conflictos 
+              
+              'Para enviar los tags no se hace como comunmente se envia el pull
+
+                => git push origin main
+
+                ===>>> git push origin --tags
+
 
